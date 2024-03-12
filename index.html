@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="STATIC/CSS/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="STATIC/CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-3"><!--row 1 start or header section start-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">Ps401</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                      </li>
+                      <!--<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>-->
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div><!--row 1 end header section end-->
+        <div class="row bg-light p-3"><!--2nd row start or main section start-->
+            <div class="col-md-3"><!--side bar start-->
+                <h5>Filter By Category</h5><hr>
+                <a href="#">All</a><br>
+                <a href="#">Mobile</a><br>
+                <a href="#">shoes</a><br>
+                <a href="#">Clothes</a><br><br>
+
+                <h5>Sort by Price</h5><hr>
+                <a href="#">High to Low</a><br>
+                <a href="#">Low to High</a><br><br>
+
+                <h5>Filter by Price</h5><hr>
+                <form action="#" method="get">
+                    <div class="mb-1">
+                        <label for="Input1" class="form-label">Min</label>
+                        <input type="text" class="form-control" id="Input1">
+                      </div>
+                      <div class="mb-1">
+                        <label for="Input2" class="form-label">Max</label>
+                        <input type="text" class="form-control" id="Input2">
+                      </div>
+                      <div class="mb-1">
+                        <input type="submit" value="Find" class="btn btn-primary">
+                      </div>
+                </form>
+            </div><!--side bar end-->
+            <div class="col-md-9"><!--product list start-->
+                <div class="row">
+                    <div class="col-md-3"><!--Product 1-->
+                        <div class="card" style="width:100%;">
+                            <img src="C:\Users\adiya\OneDrive\Pictures\Project\Shoes.webp" class="card-img-top" alt="..." height="150">
+                            <div class="card-body">
+                              <h5 class="card-title">shoes</h5>
+                              <p class="card-text"><b>Price:</b>800 Rs.</p>
+                              <a href="product_Detail.html" class="btn btn-primary">View More</a>
+                            </div>
+                          </div>                  
+                    </div>
+                    <div class="col-md-3"><!--Product 2-->
+                        <div class="card" style="width:100%;">
+                            <img src="C:\Users\adiya\OneDrive\Pictures\Project\Shoes.webp" class="card-img-top" alt="..." height="150">
+                            <div class="card-body">
+                              <h5 class="card-title">shoes</h5>
+                              <p class="card-text"><b>Price:</b>800 Rs.</p>
+                              <a href="product_Detail.html" class="btn btn-primary">View More</a>
+                            </div>
+                          </div>                  
+                    </div>
+                    <div class="col-md-3"><!--Product 3-->
+                        <div class="card" style="width: 100%;">
+                            <img src="C:\Users\adiya\OneDrive\Pictures\Project\Shoes.webp" class="card-img-top" alt="..." height="150">
+                            <div class="card-body">
+                              <h5 class="card-title">shoes</h5>
+                              <p class="card-text"><b>Price:</b>800 Rs.</p>
+                              <a href="product_Detail.html" class="btn btn-primary">View More</a>
+                            </div>
+                          </div>                  
+                    </div>
+                    <div class="col-md-3"><!--Product 4-->
+                        <div class="card" style="width:100%;">
+                            <img src="C:\Users\adiya\OneDrive\Pictures\Project\Shoes.webp" class="card-img-top" alt="..." height="150">
+                            <div class="card-body">
+                              <h5 class="card-title">shoes</h5>
+                              <p class="card-text"><b>Price:</b>800 Rs.</p>
+                              <a href="product_Detail.html" class="btn btn-primary">View More</a>
+                            </div>
+                          </div>                  
+                    </div>
+                </div>
+            </div><!--product list end-->
+
+        </div><!--second row end or main section end-->
+        <div class="row mt-3 bg-light p-3" ><!--3rd row star or footer section start-->
+            <div class="col-md-4">
+                <h5>Address</h5><hr>
+                22-b,1<sup>st</sup>Floor,Rainbow plaza,<br>Shivar chowk,Pimple Saudagar,<br>Pune 411 027,<br>Maharashtra<br>
+            </div>
+            <div class="col-md-4">
+                <h4>Quick links</h4><hr>
+                <h6><a href="index.html">Home</a></h6>
+                <h6><a href="#">About</a></h6>
+                <h6><a href="#"></a>Contact</h6>
+            </div>
+            <div class="col-md-4">
+                <h5>Social media</h5><hr>
+                <h5><a href="#"><i class="bi bi-linkedin" style="display: inline-block;"></i></a></h5>
+                <h5><a href="#"><i class="bi bi-twitter" style="display: inline-block;"></i></a></h5>
+                <h5><a href="#"><i class="bi bi-facebook " style="display: inline-block;"></i></a></h5>
+                <h5><a href="#"><i class="bi bi-instagram" style="display: inline-block;"></i></a></h5>
+
+            </div>
+        </div><!--3rd row end or footer section end-->
+    </div>
+    <script src="STATIC/JS/bootstrap.min.js"></script>
+    <script src="STATIC/JS/popper.js"></script> 
+</body>
+</html>
